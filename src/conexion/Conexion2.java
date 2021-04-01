@@ -72,7 +72,8 @@ public class Conexion2 {
             
         }catch (Exception e){
             System.err.println("Sin conexion a la base de Datos" + e.getMessage());
-            return;
+            return; 
+            //TEST1
             
         }
         
